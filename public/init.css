@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: '楷体';
+}
+
+body{
+	overflow-x: hidden;
+	background-color: #f5f5f5;
+}
+
+@font-face {
+	font-family: maobi;
+	src: url('./maobi.ttf');
+}
+
+@font-face {
+	font-family: digital;
+	src: url('./digital.ttf');
+}
+
+*::-webkit-scrollbar{
+	width: 12px;
+	border-radius: 10px;
+}
+*::-webkit-scrollbar-corner{
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+	background-color: orange;
+	border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb{
+	background-color: rgb(138, 84, 255);
+	border-radius: 10px;
+	border:2px solid orange;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+	background-color: blue;
+}
